@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const title = document.querySelector('.title');
     const text = title.textContent;
     title.textContent = '';
-    // Coding By AzadCoder - ig: @beratydm
+    // Coding By beratydm - ig: @beratydm
     const possibleChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+";
 
     for (let i = 0; i < text.length; i++) {
